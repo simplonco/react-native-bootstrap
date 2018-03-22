@@ -21,4 +21,11 @@
             ...
         ]
     ```
-4. Créer un component _Item_ avec trois `<Text>` _ITEM_ _name_ et _price_..
+4. Créer un component _Item_ avec trois `<Text>` _ITEM_ _name_ et _price_.
+
+### Jeudi après-midi
+
+1. Linker un framework d'UI components pour votre app, type _elements_ ou _native-base_. 
+2. Faire en sorte d'itérer sur le tableau json pour générer tout vos items.
+3. Créer un bouton _Add_ pour chaque items.
+4. Faire en sorte que ce bouton lance une function qui rajoute l'item à un tableau _purchase_.

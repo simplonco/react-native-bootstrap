@@ -1,27 +1,14 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import { ScrollView, Text } from 'react-native';
 
-// Custom components
-import Header from './comp/Header';
+import Shop from './components/Shop';
 
-export default class App extends React.Component {
-  render() {
+export default class App extends Component {
+  render () {
     return (
-      <View style={styles.container}>
-        <Header></Header>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
+      <ScrollView>
+        <Shop />
+      </ScrollView>
+    )
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

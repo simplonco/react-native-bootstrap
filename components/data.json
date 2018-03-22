@@ -1,0 +1,22 @@
+[
+  {
+    "name" : "blue",
+    "price": 120
+  },
+  {
+    "name" : "green",
+    "price": 70
+  },
+  {
+    "name" : "red",
+    "price": 10
+  },
+  {
+    "name" : "yellow",
+    "price": 80
+  },
+  {
+    "name" : "pink",
+    "price": 50
+  }
+]

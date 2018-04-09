@@ -29,3 +29,17 @@
 2. Faire en sorte d'itérer sur le tableau json pour générer tout vos items.
 3. Créer un bouton _Add_ pour chaque items.
 4. Faire en sorte que ce bouton lance une function qui rajoute l'item à un tableau _purchase_.
+
+### Vendredi
+
+1. Rajouter la possibilité de add et remove.
+2. S'assurer que l'item n'apparaisse qu'une fois dans le panier et que ça soit sa quantité qui augmente.
+3. Afficher un total.
+
+--------------------------
+
+# Solution proposée
+
+1. La structure proposée est dans components.
+
+![solution](md/architecture.jpg)

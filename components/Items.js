@@ -1,25 +1,17 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { ScrollView } from 'react-native';
 
 import Item from './Item';
 
-/*
-{
-  items: data
-}
-*/
 const Items = (props) => {
   return (
-    <View>
-      <Text>
-        ITEMS
-      </Text>
+    <ScrollView>
       {
-        props.items.map( (item) => {
-          return <Item product={item} />
+        props.items.map( (item, i) => {
+          return <Item product={item} key={i} i={i} hP={props.hP}/>
         })
       }
-    </View>
+    </ScrollView>
   )
 }
 
